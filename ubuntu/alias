@@ -1,0 +1,4 @@
+alias c="clear"
+alias h="history"
+
+alias super7z='for i in `ls | egrep "*.(rar$|zip$|7z$)"`;do 7z x $i && rm -f $i;done'
